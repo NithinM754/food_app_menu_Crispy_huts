@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat:wght@500&family=Oleo+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+body
+{
+    margin: 0;
+    top:0;
+    left: 0;;
+   padding: 0;
+}
+header{
+    /* font-family:'Oleo Script', cursive; */
+    font-family: 'Baskervville', serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header
+{
+    position: fixed;
+    /* background-color:rgba(13, 13, 13, 0.9); */
+    background-color:rgb(2, 2, 2);
+ 
+    width: 100%; 
+    
+
+}
+
+header .logo{
+    text-decoration: none;
+    color:rgb(250, 246, 246);
+    border: 2px;
+    position: relative;
+    
+   
+    font-size: 1.3em;
+}
+header{
+    display: flex;
+    padding: 1em;
+
+    z-index: 100;
+}
+.logo
+{
+    flex: 3;
+    padding-top: 5px;
+   
+
+}
+
+nav
+{
+    flex:2;
+    display:flex;
+}
+nav .logo{
+flex: .3;
+}
+nav .logo:hover
+{
+transform: scale(1.2) translate(3px);
+color:rgb(174, 182, 235);
+transition: .4s;
+}
+nav .login:hover
+{
+transform: scale(1.2) translate(3px);
+color:rgb(185, 242, 190);
+transition: .4s;
+}
+nav .signup:hover
+{
+transform: scale(1.2) translate(3px);
+color:rgb(175, 168, 243);
+transition: .4s;
+}
+
+.signup
+{
+  text-decoration: none;
+  color:rgb(255, 252, 252);
+  border: 2px;
+  position: relative;
+  left: 35px;
+  top: 5px;
+  font-size: 1.2em;
+}
+.login
+{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  border: 2px;
+  position: relative;
+  left: 15px;
+ 
+  
+}
